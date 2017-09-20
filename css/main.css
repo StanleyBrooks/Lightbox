@@ -1,0 +1,84 @@
+/*---------------------------------*/
+/*-----------All Colors------------*/
+/*---------------------------------*/
+body {
+    background: #384047;
+}
+
+h1 {
+    color: #fff;
+}
+
+ul li {
+    background: white;
+}
+
+#overlay {
+    background: rgba(0,0,0,0.8);
+}
+
+#overlay p {
+    color: white;
+}
+
+/*---------------------------------*/
+/*--------------Style--------------*/
+/*---------------------------------*/
+body {
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center
+}
+
+ul {
+	list-style:none;
+	margin: 55px auto;
+	display: block;
+	max-width: 780px;
+	text-align: center;
+}
+
+ul li {
+	display: inline-block;
+	padding: 5px;
+	margin: 15px;
+    border-radius: 10%;
+}
+
+ul li img {
+	display: block;
+    border-radius: 10%;
+}
+
+a {
+	text-decoration: none;
+}
+
+#logo {
+    float: right;
+    bottom: 0;
+    display: fixed;
+}
+
+/*---------------------------------*/
+/*-------------Overlay-------------*/
+/*---------------------------------*/
+#overlay {
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    text-align: center;
+    z-index: 5;
+}
+
+#overlay img {
+    margin-top: 100px;
+    width: 100%;
+    z-index: 5;
+    max-width: 675px;
+}
